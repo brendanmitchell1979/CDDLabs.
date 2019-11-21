@@ -1,0 +1,28 @@
+The README file is a text file that explains what a project is.
+
+
+
+Name: Brendan Mitchell
+Date:21/11/2019
+Project Licence:
+
+
+How to install project
+1.The make file will be compiled using the command make within the terminal in the directory of the project.
+2.The file will execute when the ./mutex command is written in the terminal.
+
+We will specifically use:
+Git for document versioning and management (c++ files in our case)
+Emacs for editing
+g++ for compiling
+gdb for debugging
+Make for managing code projects
+Doxygen for documenting code
+
+Files
+1.main.cpp
+2.Semaphore.cpp
+3.makefile
+4.mutex
+
+
