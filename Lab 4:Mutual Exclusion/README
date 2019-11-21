@@ -1,0 +1,35 @@
+
+Name: Brendan Mitchell
+Date:21/11/2019
+Project Licence:
+
+
+How to install project
+1.The make file will be compiled using the command make within the terminal in the directory of the project.
+2.The file will execute when the ./mutualExclusion command is written in the terminal.
+
+We will specifically use:
+Git for document versioning and management (c++ files in our case)
+Emacs for editing
+g++ for compiling
+gdb for debugging
+Make for managing code projects
+Doxygen for documenting code
+
+Files
+1.main.cpp
+The file containing the main function.
+2.Semaphore.cpp
+The implementation file for the Semaphore class.
+3.Semaphore.h
+The header file for the Semaphore class.
+4.makefile
+his is the project file. It contains rules that tell the system how to
+compile the code and produce a working executable called signal.
+5.Doxyfile
+This file contains the settings for the Doxygen tool. It is generated
+by the doxygen program when run for the first time.
+6.mutualExclusion
+This is the executable file.
+7.README This is a text file describing the project. Every project must have
+one.
