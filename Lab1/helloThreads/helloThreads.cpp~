@@ -1,17 +1,10 @@
 /*!
-  
-
-						\
- 
    \file hellothreads.cpp
    \author brendan
-   \date todays date
+   \date 21/11/2019
    \brief  This is the first lab called helloThreads.
-    
-  
-    NOTE: Any files not documented in this manner will not be accepted!
 */
-///comments hello im here
+
 #include <iostream>
 #include <thread>
 #include <vector>

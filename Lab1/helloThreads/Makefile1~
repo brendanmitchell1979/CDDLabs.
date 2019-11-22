@@ -1,0 +1,17 @@
+/*!
+   #file Makefile1 
+   #author brendan Mitchell
+   #date 21/11/2019
+   #brief  This file contains commands to compile projects
+*/
+
+
+CC=g++
+CFLAGS= -std=c++11 -pthread
+
+SIMPLE: helloThreads.cpp
+	g++ -std=c++11 -pthread helloThreads.cpp
+
+
+CLEAN:
+	rm *.o

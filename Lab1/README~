@@ -23,9 +23,6 @@ gdb for debugging
 Make for managing code projects
 Doxygen for documenting code
 
-To compile: make
-To run: ./a.out
-
 I will go through the following steps with you:
 
 1.	Download the complete set of files using git to clone https://github.com/josephkehoe/CDD101
