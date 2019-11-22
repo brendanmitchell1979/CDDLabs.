@@ -2,6 +2,7 @@
    \file main.cpp
    \author brendan Mitchell
    \date 21/11/2019
+   \Licence GNU									\
    \brief  This is the second lab which displays one message before another.
 */
 

@@ -1,7 +1,9 @@
-#Brendan Mitchell
-#21/11/2019
-#make file
-#Used to contain commands to compile projects
+
+#Name: Brendan Mitchell
+#Date:21/11/2019
+#File Name:make file
+#Description:Contains commands to compile projects
+#Licence:GNU
 
 
 CC=g++
