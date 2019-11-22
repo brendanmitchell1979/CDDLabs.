@@ -4,7 +4,8 @@
    \file Semaphore.h
    \author brendan Mitchell
    \date 21/11/2019
-   \brief  This is the header file for the Semaphore class.
+   \Licence GNU
+   \brief The header file for the Semaphore class.
 */
 
 

@@ -1,3 +1,15 @@
+
+
+
+
+/*!
+   \file Semaphore.cpp
+   \author brendan Mitchell
+   \date 21/11/2019
+   \licence GNU
+   \brief The implementation file for the Semaphore class.
+*/
+
 #include "Semaphore.h"
 /*! \class Semaphore
     \brief A Semaphore Implementation
