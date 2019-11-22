@@ -1,9 +1,10 @@
 
 /*!
-   \file Semaphore.h
+   \file Semaphore.CPP
    \author brendan Mitchell
    \date 21/11/2019
-   \brief  This is the header file for the Semaphore class.
+   \brief  This is the implementation file for the Semaphore class.
+   \licence GNU
 */
 
 

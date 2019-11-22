@@ -3,7 +3,12 @@
  \author Brendan Mitchell
  \date 21/11/2019
  \Project CDD Lab 4 Mutual Exclusion
- \License GNU
+ \License #Licence: Attribution 4.0 Internationl
+ Share — copy and redistribute the material in any medium or format
+ Adapt — remix, transform, and build upon the material
+ for any purpose, even commercially.
+ Link: https://creativecommons.org/licenses/by/4.0/legalcode
+
  \brief Description:Mutual exclusion using a semaphore
  */
 
@@ -22,6 +27,8 @@
     \var int shared variables = 0;
     \brief The shared variable to be used iniatialised to 0 
 */
+
+
 
 
 static const int num_threads = 100;
@@ -44,12 +51,14 @@ int sharedVariable=0;
 /*! displays a message that is split in to 2 sections to show how a rendezvous works*/
 void updateTask(std::shared_ptr<Semaphore> firstSem, int numUpdates){
   
-
  
+  
+  firstSem->Wait();
   for(int i=0;i<numUpdates;i++){
     //UPDATE SHARED VARIABLE HERE!
     sharedVariable++;
   }
+  firstSem->Signal();
 
  
 
@@ -64,9 +73,11 @@ void updateTask(std::shared_ptr<Semaphore> firstSem, int numUpdates){
 */
 
 
+
+
 int main(void){
   std::vector<std::thread> vt(num_threads);
-  std::shared_ptr<Semaphore> aSemaphore( new Semaphore);
+  std::shared_ptr<Semaphore> aSemaphore( new Semaphore(1));
   /**< Launch the threads  */
   int i=0;
   for(std::thread& t: vt){

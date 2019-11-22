@@ -1,9 +1,10 @@
-/*
- *Project:CDD Labs- Lab 4 Mutual Exclusion
- *Author: Brendan Mitchell
- *License: GNU
- *Description:The make files compiles the files mentioned and deletes all the .o files created 
- */
+
+#Name: Brendan Mitchell
+#Date:21/11/2019
+#File Name:make file
+#Description:Contains commands to compile projects
+#Licence:GNU
+
 
 CC=g++
 CFLAGS= -std=c++11 -pthread
